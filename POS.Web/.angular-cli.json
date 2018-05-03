@@ -21,17 +21,27 @@
       "styles": [
         "styles.css",
         "../node_modules/ngx-toastr/toastr.css",
-        "theme/nifty.min.css",
-        "theme/nifty-demo-icons.min.css"
+        "theme/styles/component.css",
+        "theme/styles/core.css",
+        "theme/styles/icons.css",
+        "theme/styles/menu.css",
+        "theme/styles/pages.css",
+        "theme/styles/responsive.css",
+        "theme/styles/switchery.min.css"
+
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
-        "theme /jquery.flot.min.js",
-        "materialdesignicons.min.css",
-        "feather.css",
-        "vendor.bundle.base.css",
-        "vendor.bundle.addons.css",
-        "theme/dashboard_new.js"
+        "theme/scripts/detect.js",
+        "theme/scripts/fastclick.js",
+        "theme/scripts/jquery.blockUI.js",
+        "theme/scripts/waves.js",
+        "theme/scripts/jquery.slimscroll.js",
+        "theme/scripts/jquery.scrollTo.min.js",
+        "theme/scripts/jquery.waypoints.min.js",
+        "theme/scripts/jquery.counterup.min.js",
+        "theme/scripts/switchery.min.js",
+        "theme/scripts/jquery.dashboard_2.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
