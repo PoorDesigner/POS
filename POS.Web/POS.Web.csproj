@@ -75,6 +75,8 @@
     <None Include="packages.config" />
     <Content Include="README.md" />
     <Content Include="src\assets\.gitkeep" />
+    <Content Include="src\theme\scripts\app.core.js" />
+    <Content Include="src\theme\scripts\app.donno.js" />
     <Content Include="src\theme\scripts\detect.js" />
     <Content Include="src\theme\scripts\fastclick.js" />
     <Content Include="src\theme\scripts\jquery.blockUI.js" />
@@ -106,6 +108,7 @@
     <Content Include="src\theme\fonts\materialdesignicons-webfont.ttf" />
     <Content Include="src\theme\fonts\materialdesignicons-webfont.woff" />
     <Content Include="src\theme\fonts\materialdesignicons-webfont.woff2" />
+    <Content Include="src\theme\fonts\fontawesome-webfont.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

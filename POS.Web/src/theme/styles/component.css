@@ -1615,51 +1615,7 @@ File: Components
     display: inline-block;
     font-size: 30px;
   }
-/* =========== */
-/* Sweet Alert */
-/* =========== */
-.sweet-alert {
-  background: url("../images/bg-pattern.png");
-}
 
-  .sweet-alert h2 {
-    font-size: 24px;
-    position: relative;
-  }
-
-  .sweet-alert p {
-    font-size: 14px;
-    line-height: 22px;
-  }
-
-  .sweet-alert .icon.success .placeholder {
-    border: 4px solid rgba(75, 211, 150, 0.3);
-  }
-
-  .sweet-alert .icon.success .line {
-    background-color: #4bd396;
-  }
-
-  .sweet-alert .icon.warning {
-    border-color: #f9c851;
-  }
-
-  .sweet-alert .icon.info {
-    border-color: #3ac9d6;
-  }
-
-  .sweet-alert .btn-warning:focus,
-  .sweet-alert .btn-info:focus,
-  .sweet-alert .btn-success:focus,
-  .sweet-alert .btn-danger:focus,
-  .sweet-alert .btn-default:focus {
-    box-shadow: none;
-  }
-
-  .sweet-alert .btn-lg {
-    font-size: 15px !important;
-    padding: 6px 14px !important;
-  }
 /* =============
    Widgets
 ============= */
@@ -2849,7 +2805,7 @@ input[data-switch="teal"]:checked + label {
 }
 
 .ms-container {
-  background: transparent url('../plugins/multiselect/img/multiple-arrow.png') no-repeat 50% 50%;
+  /*background: transparent url('../plugins/multiselect/img/multiple-arrow.png') no-repeat 50% 50%;*/
   width: 100% !important;
   max-width: 360px !important;
 }
