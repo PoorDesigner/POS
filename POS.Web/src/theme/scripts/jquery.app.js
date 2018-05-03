@@ -7,13 +7,14 @@
 
 !function($) {
     "use strict";
-
+  debugger;
     var Sidemenu = function() {
         this.$body = $("body"),
         this.$openLeftBtn = $(".open-left"),
         this.$menuItem = $("#sidebar-menu a")
     };
-    Sidemenu.prototype.openLeftBar = function() {
+  Sidemenu.prototype.openLeftBar = function () {
+    debugger;
       $("#wrapper").toggleClass("enlarged");
       $("#wrapper").addClass("forced");
 

@@ -14,7 +14,6 @@ import { ValuesComponent } from './values/values.component';
 
 import { ToastrModule } from 'ngx-toastr';
 
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -25,7 +24,6 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     ValuesComponent
   ],
   imports: [
-    NgbModule.forRoot(),
     BrowserModule,
     FormsModule,
     HttpModule,

@@ -20,6 +20,7 @@
       "prefix": "app",
       "styles": [
         "styles.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "../node_modules/ngx-toastr/toastr.css",
         "theme/styles/component.css",
         "theme/styles/core.css",
@@ -32,6 +33,7 @@
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
         "theme/scripts/jquery.flot.min.js",
         "theme/scripts/detect.js",
         "theme/scripts/fastclick.js",
@@ -43,8 +45,8 @@
         "theme/scripts/jquery.counterup.min.js",
         "theme/scripts/switchery.min.js",
         "theme/scripts/jquery.dashboard_2.js",
-        "theme/scripts/app.core.js",
-        "theme/scripts/app.donno.js"
+        "theme/scripts/jquery.core.js",
+        "theme/scripts/jquery.app.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

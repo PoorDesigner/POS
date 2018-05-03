@@ -75,8 +75,8 @@
     <None Include="packages.config" />
     <Content Include="README.md" />
     <Content Include="src\assets\.gitkeep" />
-    <Content Include="src\theme\scripts\app.core.js" />
-    <Content Include="src\theme\scripts\app.donno.js" />
+    <Content Include="src\theme\scripts\jquery.core.js" />
+    <Content Include="src\theme\scripts\jquery.app.js" />
     <Content Include="src\theme\scripts\detect.js" />
     <Content Include="src\theme\scripts\fastclick.js" />
     <Content Include="src\theme\scripts\jquery.blockUI.js" />
