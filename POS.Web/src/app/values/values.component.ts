@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-values',
@@ -11,5 +12,4 @@ export class ValuesComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

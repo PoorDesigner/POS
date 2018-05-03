@@ -75,10 +75,29 @@
     <None Include="packages.config" />
     <Content Include="README.md" />
     <Content Include="src\assets\.gitkeep" />
+    <Content Include="src\theme\dashboard.js" />
+    <Content Include="src\theme\dashboard_new.js" />
+    <Content Include="src\theme\feather.css" />
+    <Content Include="src\theme\hoverable-collapse.js" />
+    <Content Include="src\theme\jquery.flot.min.js" />
+    <Content Include="src\theme\materialdesignicons.min.css" />
+    <Content Include="src\theme\misc.js" />
+    <Content Include="src\theme\nifty-demo-icons.min.css" />
+    <Content Include="src\theme\nifty.min.css" />
+    <Content Include="src\theme\nifty.min.js" />
+    <Content Include="src\theme\off-canvas.js" />
+    <Content Include="src\theme\settings.js" />
+    <Content Include="src\theme\style.css" />
+    <Content Include="src\theme\todolist.js" />
+    <Content Include="src\theme\vendor.bundle.addons.css" />
+    <Content Include="src\theme\vendor.bundle.base.css" />
     <Content Include="src\tsconfig.app.json" />
     <Content Include="src\tsconfig.spec.json" />
     <Content Include="tsconfig.json" />
     <Content Include="tslint.json" />
+    <Content Include="src\theme\fonts\nifty-demo-icons.svg" />
+    <Content Include="src\theme\fonts\nifty-demo-icons.ttf" />
+    <Content Include="src\theme\fonts\nifty-demo-icons.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
