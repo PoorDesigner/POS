@@ -1,0 +1,26 @@
+@import "variables";
+
+// All Bootstrap modules besides the Glypicons icon font are imported.
+// Go to this file and comment out any modules you don't plan to use
+@import "base/bootstrap_core";
+@import "font-awesome";
+
+.some-class {
+  color: $some-variable; // found in _variables.scss
+}
+
+// BASE STYLES
+// ==========================
+@import "base/bootstrap_basic_styles";
+@import "base/bootstrap_utilities";
+@import "base/headers";
+
+// LAYOUTS
+// ==========================
+
+// MODULES
+// ==========================
+@import "modules/bootstrap_components";
+@import "modules/link_list";
+@import "modules/github_repo_badge";
+@import "modules/equation_form";
